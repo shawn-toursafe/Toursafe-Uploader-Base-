@@ -1,0 +1,70 @@
+# Ignore the vendor directory
+/vendor/
+
+# Ignore the storage directory, except for storage/app/public which is often used
+/storage/*
+!/storage/app/public/
+
+# Ignore the cache directory
+/bootstrap/cache/
+
+# Ignore environment files
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Ignore node_modules
+/node_modules/
+
+# Ignore compiled files
+/public/hot
+/public/storage
+/public/css
+/public/js
+/public/mix-manifest.json
+
+# Ignore various IDE config files
+/.idea
+/.vscode
+*.sublime-project
+*.sublime-workspace
+
+# Ignore logs and temp files
+*.log
+*.tmp
+*.temp
+
+# Ignore OS files
+.DS_Store
+Thumbs.db
+
+# Ignore Composer vendor directory
+/vendor/
+
+# Ignore Laravel specific files
+/public/storage
+/storage/*.key
+Homestead.yaml
+Homestead.json
+/nova
+
+# Ignore unnecessary files in the root directory
+*.lock
+*.phar
+
+# Allow specific files that might be needed
+!.gitignore
+!public/.htaccess
+!resources/
+!routes/
+!app/
+!config/
+!database/
+!tests/
+!bootstrap/app.php
+
+.phpunit.result.cache
+npm-debug.log
+yarn-error.log
